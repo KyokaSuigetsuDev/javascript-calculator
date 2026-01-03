@@ -12,7 +12,10 @@ let currentOperand = '0';
 let previousOperand = '';
 let operation = null;
 let resetScreen = false;
-
+let history = [];
+function addToHistory(expression, result) {
+    history.push(`${expression} = ${result}`);
+}
 // ============================================
 // ОСНОВНЫЕ ФУНКЦИИ
 // ============================================
