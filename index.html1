@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Мой Калькулятор</h1>
-        <p class="subtitle">Написан на чистом JavaScript</p>
+    <div class="avatar">
+        <img sqc="aizen-avatar.png"
+            alt="Aizen">
+            
+        <p class="subtitle">Калькулятор Айзена</p>
+        </div>
         
         <div class="calculator">
             <!-- Экран калькулятора -->
