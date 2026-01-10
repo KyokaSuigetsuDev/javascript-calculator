@@ -96,7 +96,7 @@ function calculate() {
         case '/':
             // Проверка деления на ноль
             if (current === 0) {
-                alert("Ошибка: деление на ноль!");
+                alert("Ошибка: на ноль делить нельзя!");
                 clearAll();
                 return;
             }
